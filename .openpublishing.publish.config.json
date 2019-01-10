@@ -1,22 +1,5 @@
 {
   "need_generate_pdf": false,
-  "docsets_to_publish": [
-    {
-      "docset_name": "E2E_SharedBasePath_DocfxV3",
-      "build_source_folder": ".",
-      "build_output_subfolder": "E2E_SharedBasePath_DocfxV3",
-      "locale": "en-us",
-      "monikers": [],
-      "moniker_ranges": [],
-      "open_to_public_contributors": true,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content"
-      },
-      "build_entry_point": "docs",
-      "template_folder": "_themes"
-    },
     {
       "docset_name": "SharedBasePathTest1V3",
       "build_source_folder": "SharedBasePathTest1",
