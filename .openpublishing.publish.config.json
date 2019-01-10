@@ -1,4 +1,5 @@
 {
+  "need_generate_pdf": false,
   "docsets_to_publish": [
     {
       "docset_name": "E2E_SharedBasePath_DocfxV3",
@@ -17,41 +18,9 @@
       "template_folder": "_themes"
     },
     {
-      "docset_name": "SharedBasePathTest1",
-      "build_source_folder": "SharedBasePathTest1",
-      "build_output_subfolder": "SharedBasePathTest1",
-      "locale": "en-us",
-      "monikers": [],
-      "moniker_ranges": [],
-      "open_to_public_contributors": true,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content"
-      },
-      "build_entry_point": "docs",
-      "template_folder": "_themes"
-    },
-    {
       "docset_name": "SharedBasePathTest1V3",
       "build_source_folder": "SharedBasePathTest1",
       "build_output_subfolder": "SharedBasePathTest1V3",
-      "locale": "en-us",
-      "monikers": [],
-      "moniker_ranges": [],
-      "open_to_public_contributors": true,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content"
-      },
-      "build_entry_point": "docs",
-      "template_folder": "_themes"
-    },
-    {
-      "docset_name": "SharedBasePathTest2",
-      "build_source_folder": "SharedBasePathTest2",
-      "build_output_subfolder": "SharedBasePathTest2",
       "locale": "en-us",
       "monikers": [],
       "moniker_ranges": [],
@@ -96,5 +65,7 @@
     }
   ],
   "branch_target_mapping": {},
-  "need_generate_pdf_url_template": false
+  "need_generate_pdf_url_template": false,  
+  "need_generate_intellisense": false,
+  "use_docfxv3": true
 }
